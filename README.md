@@ -79,6 +79,26 @@ Os dados estão distribuídos por **grupo de idade** e **sexo**.
 | **genero** | Sexo do solicitante (`masculino`, `feminino`, `nao especificado`). | Texto (Categórico) |
 | **total\_processos\_extintos** | Quantidade de processos de refúgio extintos. | Numérico (Inteiro) |
 ---
+## Sumário da Tabela: Processos Arquivados Por País (2024)
+
+### Panorama
+
+Esta tabela detalha o **Número de processos de solicitação de reconhecimento da condição de refugiado que foram ARQUIVADOS** no Brasil durante o ano de **2024**. Um processo arquivado é similar a um extinto, indicando o encerramento da solicitação sem uma decisão de mérito (deferimento ou indeferimento).
+
+Os dados estão distribuídos por **país de nacionalidade ou residência habitual** e **sexo**.
+
+**Nome do Arquivo CSV:** `ProcessosRefugiadosArquivados2024.csv`
+
+---
+
+### Estrutura de Dados da Tabela
+
+| Coluna | Descrição | Tipo de Dado (Conteúdo) |
+| :--- | :--- | :--- |
+| **pais** | País de nacionalidade ou residência habitual. | Texto (Categórico) |
+| **genero** | Sexo do solicitante (`masculino`, `feminino`, `nao especificado`). | Texto (Categórico) |
+| **total\_processos\_arquivados** | Quantidade de processos de refúgio arquivados. | Numérico (Inteiro) |
+---
 ### Fonte e Tecnologias de Processamento
 
 * **Fonte Original dos Dados:** Governo Brasileiro - Ministério da Justiça e Segurança Pública (dados sobre Refúgio em Números).
