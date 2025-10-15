@@ -110,6 +110,27 @@ Os dados estão distribuídos por **grupos de idade** (0 a 6, 7 a 11 e 12 a 17 a
 **Nome do Arquivo CSV:** `MenoresRefugiadosDeferidosIdade2023-2024.csv`
 
 ---
+## Sumário da Tabela: Proporção de Deferimentos para Menores (2023-2024)
+
+### Panorama
+
+Esta tabela apresenta a **proporção de processos de refúgio deferidos (aprovados)** que correspondem a indivíduos com **idade menor ou igual a 17 anos**, dentro do contexto de **reunião familiar**.
+
+Os dados mostram o total de deferimentos e o total de deferimentos para menores, permitindo o cálculo da proporção, para os anos de **2023 e 2024**.
+
+**Nome do Arquivo CSV:** `ProporcaoDeferidosMenores2023-2024.csv`
+
+---
+
+### Estrutura de Dados da Tabela
+
+| Coluna | Descrição | Tipo de Dado (Conteúdo) |
+| :--- | :--- | :--- |
+| **ano** | Ano do registro (2023 ou 2024). | Numérico Categórico / Texto |
+| **deferimentos\_total** | Número total de processos de refúgio deferidos. | Numérico (Inteiro) |
+| **deferimentos\_menores\_17** | Número de processos deferidos para indivíduos com até 17 anos. | Numérico (Inteiro) |
+| **proporcao** | Proporção de deferimentos para menores em relação ao total (em porcentagem, com separador decimal ponto). | Numérico (Decimal) |
+---
 
 ### Estrutura de Dados da Tabela
 
