@@ -39,6 +39,26 @@ Esta tabela detalha o **Número de processos de solicitação de reconhecimento 
 | **total\_processos\_indeferidos** | Quantidade de processos de refúgio negados. | Numérico (Inteiro) |
 
 ---
+## Sumário da Tabela: Processos Extintos Por País (2024)
+
+### Panorama
+
+Esta tabela detalha o **Número de processos de solicitação de reconhecimento da condição de refugiado que foram EXTINTOS (encerrados sem decisão de mérito)** no Brasil durante o ano de **2024**.
+
+Os dados estão distribuídos por **país de nacionalidade ou residência habitual** e **sexo**.
+
+**Nome do Arquivo CSV:** `ProcessosRefugiadosExtintos2024.csv`
+
+---
+
+### Estrutura de Dados da Tabela
+
+| Coluna | Descrição | Tipo de Dado (Conteúdo) |
+| :--- | :--- | :--- |
+| **pais** | País de nacionalidade ou residência habitual. | Texto (Categórico) |
+| **genero** | Sexo do solicitante (`masculino`, `feminino`, `nao especificado`). | Texto (Categórico) |
+| **total\_processos\_extintos** | Quantidade de processos de refúgio extintos. | Numérico (Inteiro) |
+---
 
 ### Fonte e Tecnologias de Processamento
 
