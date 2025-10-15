@@ -99,6 +99,27 @@ Os dados estão distribuídos por **país de nacionalidade ou residência habitu
 | **genero** | Sexo do solicitante (`masculino`, `feminino`, `nao especificado`). | Texto (Categórico) |
 | **total\_processos\_arquivados** | Quantidade de processos de refúgio arquivados. | Numérico (Inteiro) |
 ---
+## Sumário da Tabela: Menores Refugiados Deferidos Por Idade (2023-2024)
+
+### Panorama
+
+Esta tabela detalha o **Número de processos de solicitação de reconhecimento da condição de refugiado que foram DEFERIDOS (aprovados)** no Brasil para menores de idade (**idade $\leq$ 17 anos**), no contexto de **reunião familiar**, durante **2023 e 2024**.
+
+Os dados estão distribuídos por **grupos de idade** (0 a 6, 7 a 11 e 12 a 17 anos), **ano** e **sexo**.
+
+**Nome do Arquivo CSV:** `MenoresRefugiadosDeferidosIdade2023-2024.csv`
+
+---
+
+### Estrutura de Dados da Tabela
+
+| Coluna | Descrição | Tipo de Dado (Conteúdo) |
+| :--- | :--- | :--- |
+| **ano** | Ano em que o processo foi deferido (2023 ou 2024). | Numérico Categórico / Texto |
+| **genero** | Sexo do refugiado menor de 17 anos (`masculino`, `feminino`, `nao informado`). | Texto (Categórico) |
+| **grupo\_idade** | Faixa etária do refugiado menor de 17 anos. | Texto (Categórico) |
+| **total\_processos\_deferidos** | Quantidade de processos de refúgio aprovados. | Numérico (Inteiro) |
+---
 ### Fonte e Tecnologias de Processamento
 
 * **Fonte Original dos Dados:** Governo Brasileiro - Ministério da Justiça e Segurança Pública (dados sobre Refúgio em Números).
