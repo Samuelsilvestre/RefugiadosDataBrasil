@@ -20,6 +20,25 @@ A tabela final possui **4 colunas** e foi transformada (pivotada) a partir dos d
 | **total\_processos\_deferidos** | Quantidade de processos de refúgio aprovados. | Numérico (Inteiro) |
 
 ---
+## Sumário da Tabela: Refugiados Indeferidos Por Grupo Idade (2024)
+
+### Panorama
+
+Esta tabela detalha o **Número de processos de solicitação de reconhecimento da condição de refugiado que foram INDEFERIDOS (negados)** no Brasil durante o ano de **2024**, distribuídos por **grupo de idade** e **sexo**.
+
+**Nome do Arquivo CSV:** `RefugiadosIndeferidosGrupoIdade2024.csv`
+
+---
+
+### Estrutura de Dados da Tabela
+
+| Coluna | Descrição | Tipo de Dado (Conteúdo) |
+| :--- | :--- | :--- |
+| **grupo\_idade** | Faixa etária do solicitante. | Texto (Categórico) |
+| **genero** | Sexo do solicitante (`masculino`, `feminino`). | Texto (Categórico) |
+| **total\_processos\_indeferidos** | Quantidade de processos de refúgio negados. | Numérico (Inteiro) |
+
+---
 
 ### Fonte e Tecnologias de Processamento
 
