@@ -59,7 +59,26 @@ Os dados estão distribuídos por **país de nacionalidade ou residência habitu
 | **genero** | Sexo do solicitante (`masculino`, `feminino`, `nao especificado`). | Texto (Categórico) |
 | **total\_processos\_extintos** | Quantidade de processos de refúgio extintos. | Numérico (Inteiro) |
 ---
+## Sumário da Tabela: Processos Extintos Por Idade (2024)
 
+### Panorama
+
+Esta tabela detalha o **Número de processos de solicitação de reconhecimento da condição de refugiado que foram EXTINTOS (encerrados sem decisão de mérito)** no Brasil durante o ano de **2024**.
+
+Os dados estão distribuídos por **grupo de idade** e **sexo**.
+
+**Nome do Arquivo CSV:** `ProcessosRefugiadosExtintosIdade2024.csv`
+
+---
+
+### Estrutura de Dados da Tabela
+
+| Coluna | Descrição | Tipo de Dado (Conteúdo) |
+| :--- | :--- | :--- |
+| **grupo\_idade** | Faixa etária do solicitante. | Texto (Categórico) |
+| **genero** | Sexo do solicitante (`masculino`, `feminino`, `nao especificado`). | Texto (Categórico) |
+| **total\_processos\_extintos** | Quantidade de processos de refúgio extintos. | Numérico (Inteiro) |
+---
 ### Fonte e Tecnologias de Processamento
 
 * **Fonte Original dos Dados:** Governo Brasileiro - Ministério da Justiça e Segurança Pública (dados sobre Refúgio em Números).

@@ -1,0 +1,28 @@
+grupo_idade;genero;total_processos_extintos
+0 a 6 anos;masculino;935
+0 a 6 anos;feminino;842
+0 a 6 anos;nao especificado;239
+7 a 11 anos;masculino;961
+7 a 11 anos;feminino;916
+7 a 11 anos;nao especificado;376
+12 a 18 anos;masculino;1005
+12 a 18 anos;feminino;1001
+12 a 18 anos;nao especificado;312
+Menor que 15 anos;masculino;2417
+Menor que 15 anos;feminino;2300
+Menor que 15 anos;nao especificado;783
+15 a 24 anos;masculino;1916
+15 a 24 anos;feminino;1348
+15 a 24 anos;nao especificado;762
+25 a 39 anos;masculino;5835
+25 a 39 anos;feminino;2976
+25 a 39 anos;nao especificado;1357
+40 a 64 anos;masculino;2883
+40 a 64 anos;feminino;1555
+40 a 64 anos;nao especificado;458
+65 anos ou mais;masculino;127
+65 anos ou mais;feminino;138
+65 anos ou mais;nao especificado;30
+Nao Especificado;masculino;0
+Nao Especificado;feminino;1
+Nao Especificado;nao especificado;1
